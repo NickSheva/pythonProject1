@@ -25,4 +25,5 @@ ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
 # добавление легенды с цветами и их значениями
 fig.colorbar(surf, shrink=0.5, aspect=5)
 
-plt.savefig('mplot3d.png', bbox_inches='tight', dpi=100)
+#plt.savefig('mplot3d.png', bbox_inches='tight', dpi=100)
+plt.show()
